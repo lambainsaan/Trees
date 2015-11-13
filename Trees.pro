@@ -1,5 +1,5 @@
 HEADERS += \
-    binartree.h
+    binarytrees.h
 
 SOURCES += \
-    binartree.cpp
+    binarytrees.cpp
