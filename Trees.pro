@@ -1,6 +1,8 @@
 HEADERS += \
-    binarytrees.h
+    binarytrees.h \
+    bst.h
 
 SOURCES += \
     binarytrees.cpp \
-    helper.cpp
+    helper.cpp \
+    bst.cpp

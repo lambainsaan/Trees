@@ -46,14 +46,14 @@ void BinaryTrees :: printhelper(TreeNode * node){
     if(node!=NULL){
 
 
-        //If you are printing at the top then it is in-order
+        //If you are printing at the top then it is pre-order
 
         printhelper(node->left);
 
 
         cout<<node->data<<endl;
 
-        //If it is in the middle then it is pre-order
+        //If it is in the middle then it is in-order
 
         printhelper(node->right);
 
