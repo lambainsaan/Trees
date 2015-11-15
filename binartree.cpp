@@ -1,0 +1,7 @@
+#include "BinaryTree"
+
+BinarTree::BinarTree()
+{
+
+}
+
