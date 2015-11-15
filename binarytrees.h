@@ -1,4 +1,6 @@
 #include <cstddef>
+#include<string>
+
 
 #ifndef BINARYTREES_H
 #define BINARYTREES_H
@@ -34,8 +36,9 @@ public:
    void print();
 
 private:
-
-   void printhelper(TreeNode *);
+    bool containshelper(int,TreeNode*);
+    void printhelpersideways(TreeNode *, std::string);
+    void printhelper(TreeNode *);
    TreeNode * root;
 
 };
